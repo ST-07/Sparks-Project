@@ -4,7 +4,7 @@ html,body{
     overflow-x: hidden;
 }
 .index{
-    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(23, 140, 34,0.3)),url(Images/index_bg.jpg);
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(23, 140, 34,0.3)),url(index_bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -186,7 +186,7 @@ float: left;
     background-color: lightskyblue;
 }
 #gallery{
-    background-image: url("Images/gal_bg.jpg");
+    background-image: url("gal_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -204,7 +204,7 @@ float: left;
 }
 
 .donate{
-    background-image: url("Images/donate_bg.jpg");
+    background-image: url("donate_bg.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
