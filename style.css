@@ -1,0 +1,298 @@
+html,body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+.index{
+    background-image: linear-gradient(rgba(255,255,255,0.7),rgba(23, 140, 34,0.3)),url(Images/index_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:750px;
+}
+.company{
+    font-size: 45px;
+    font-weight: bold;
+    color:orangered;
+    text-shadow: 2px 2px black;
+    line-height:200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.quote{
+    font-size: 30px;
+    color:darkblue;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+}
+.borders{
+    border: 2px solid rgba(255,255,255,0.6);
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color:yellow;
+    font-weight: 600;
+    text-shadow: 1px 1px black;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    height:100px;
+    padding:20px;
+    background-color:purple;
+}
+nav li{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+nav .logo{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:orangered;
+}
+.height{
+    height:600px;
+    background-color:plum;
+}
+.slide figure img{
+height: 450px;
+width:25%;
+float: left;
+}
+.slide{
+    overflow: hidden;
+}
+.slide figure{
+    position: relative;
+    margin-left: 0%;
+    margin-top: 0%;
+    width:400%;
+    animation:25s slider infinite;
+
+}
+
+@keyframes slider{
+    0%{
+        left:0%;
+    }
+    10%{
+        left:0%;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    60%{
+        left:-300%;
+    }
+    70%{
+        left:-300%;
+    }
+    80%{
+        left:0%;
+    }
+}
+
+.heading{
+    font-size: 45px;
+    color:purple;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-weight:bold;
+}
+.content{
+    font-size:20px;
+    font-family:cursive;
+}
+.collapse{
+    margin:40px;
+}
+.head{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: orangered;
+}
+.con{
+    text-align: center;
+    background-color: lightgreen;
+}
+.earth{
+    font-size: 40px;
+    font-weight: 800;
+    color: darkred;
+    padding:10px;
+}
+.earth-img{
+    width: 600px;
+    height:300px;
+}
+.flex{
+    display: inline-flex;
+    margin:50px;
+    text-align: center;
+}
+.flex-items{
+    margin-left: 20px;
+    font-size: 17px;
+}
+.flex img{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.flex hr{
+    width: 200px;
+}
+.line{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    color: darkblue;
+    line-height: 60px;
+}
+.testimonial{
+    display: inline-flex;
+    text-align: center;
+    margin: 40px;
+}
+.get-in-touch{
+    margin: 40px;
+    padding:10px;
+}
+.testimonial img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-top:-80px;
+    
+}
+.test{
+    margin: 30px;
+    padding: 20px;
+    background-color: lightskyblue;
+}
+#gallery{
+    background-image: url("Images/gal_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+#gallery img{
+    width: 300px;
+    height: 400px;
+}
+.get-in-touch span{
+    margin-left:10px;
+}
+.head_office,.abc{
+    font-size: 20px;    
+}
+
+.donate{
+    background-image: url("Images/donate_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:700px;
+}
+.quotes{
+    font-size: 30px;
+    color:darkblue;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 1px black;
+    font-style: italic;
+    line-height: 240px;  
+}
+.compli{
+    font-size: 30px;
+    color:darkred;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px black; 
+}
+.donate-button{
+    margin: 50px;
+}
+
+@media screen and (max-width:600px){
+    html,body{
+        margin:0;
+        padding:0;
+        overflow-x: hidden;
+    }
+    .company{
+        line-height: normal;
+        margin: 40px;
+        font-size: 35px;
+    }
+    .quote{
+        font-size: 25px;
+    }
+    nav{
+        padding: 10px;
+    }
+    nav .logo{
+        margin-top: 10px;
+        font-size: 23px;
+        line-height: normal;
+    }
+    .content{
+        font-size: 17px;
+    }
+    .earth{
+        font-size: 30px;
+    }
+    .earth-img{
+        width: 300px;
+        height:200px;
+    }
+    .flex{
+        display:flex;
+        flex-direction: column;
+    }
+    .flex-items{
+        margin: 20px;
+    }
+    .testimonial{
+        display: flex;
+        flex-direction: column;
+    }
+    .test{
+        margin:50px 10px 50px 10px;
+    }
+    #gallery img{
+        width: 200px;
+        height: 300px;
+    }
+    .contact .heading{
+        font-size: 35px;
+    }
+    .head_office{
+        font-size: 17px;
+    }
+    .quotes{
+        line-height: normal;
+        font-size: 25px;
+        padding:60px 0px 60px 0px;
+    }
+    .compli{
+        font-size: 25px;
+        padding: 30px 0px 50px 0px ;
+    }
+}
